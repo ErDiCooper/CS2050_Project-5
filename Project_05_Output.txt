@@ -1,0 +1,12 @@
+The postfix expression for a + b is: a b + 
+The postfix expression for a + b * c is: a b c * + 
+The postfix expression for a * b ^ c is: a b c ^ * 
+The postfix expression for a + b * c ^ d is: a b c d ^ * + 
+The postfix expression for ( a + b ) * c is: a b + c * 
+The postfix expression for    (a +b     ) *        c is: a b + c * 
+The postfix expression for ( a + b ) / ( c – d ) is: None. Invalid syntax. (Missing Operator.)
+The postfix expression for ( a + b * c ^ d ) ^ ( e * f – g ^ h ) is: None. Invalid syntax. (Missing Operator.)
+The postfix expression for ((( a +b   * c^ d )) ^( e* f– g ^h)) is: None. Invalid syntax. (Missing Operator.)
+The postfix expression for ( a +b   * c^ d ) ^( e* f– g  h) is: None. Invalid syntax. (Missing Operator.)
+The postfix expression for a / b * c / d + ( e*f / g ^ h ) * (i – j) is: None. Invalid syntax. (Missing Operator.)
+The postfix expression for (( a   /b)*  (f ^g ) is: None. Invalid syntax. (Missing Parentheses.)
