@@ -27,9 +27,10 @@ public class Dejnag_Eric_Project05
       while (input.hasNext())
       {
          String infix = input.nextLine();
-         output.print("The postfix expression for " + infix + " is: ");
-         output.println(obj.convertToPostfix(infix));
+         output.println("The postfix expression for " + infix + " is:");
+         output.println("    " + obj.convertToPostfix(infix));
       }
       output.close();
+
 	} // End of main.   
 } // End of Dejnag_Eric_Project05
